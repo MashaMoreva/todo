@@ -1,4 +1,4 @@
 # ToDo
 список дел
 
-[посмотреть ToDo](https://mashamoreva.github.io/ToDo/))
+[посмотреть ToDo](https://mashamoreva.github.io/ToDo/)
