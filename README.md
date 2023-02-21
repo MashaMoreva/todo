@@ -7,8 +7,9 @@
 * есть возможность составить несколько списков
 
 #### Стек технологий:
-* TypeScript
+* JavaScript
 * Bootstrap
+* HTML
 
 #### Ссылка на проект
 * [посмотреть на GitHub Pages](https://mashamoreva.github.io/ToDo/)
