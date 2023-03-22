@@ -12,4 +12,4 @@
 * HTML
 
 #### Ссылка на проект
-* [посмотреть на GitHub Pages](https://mashamoreva.github.io/ToDo/)
+* [посмотреть на GitHub Pages](https://mashamoreva.github.io/todo/)
