@@ -11,10 +11,14 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <script defer src="./src/todo.js"></script>
+    <script defer src="./todo.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        createTodoApp(document.getElementById("todo-app"), "Мои дела", "Me");
+        createTodoApp(
+          document.getElementById("todo-app"),
+          "Дела детей",
+          "children"
+        );
       });
     </script>
   </head>
@@ -38,13 +42,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Мои дела</a>
+              <a class="nav-link" href="../index.html">Мои дела</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./src/nikita.html">Дела Никиты</a>
+              <a class="nav-link" href="nikita.html">Дела Никиты</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d" href="./src/children.html">Дела детей</a>
+              <a class="nav-link d" href="children.html">Дела детей</a>
             </li>
           </ul>
         </div>
