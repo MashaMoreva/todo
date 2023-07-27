@@ -13,7 +13,7 @@
     />
     <script type="module">
       import { createTodoApp } from "./todo/view.js";
-      const owner = "Me";
+      const owner = "Nikita";
       let useServerStorage =
         localStorage.getItem("useServerStorage") === "true";
 
@@ -35,7 +35,7 @@
         } = await import(storageModule);
         const todoItemList = await getTodoList(owner);
         createTodoApp(document.getElementById("todo-app"), {
-          title: "Мои дела",
+          title: "Дела Никиты",
           owner,
           todoItemList,
           onCreateFormSubmit: createTodoItem,
@@ -46,11 +46,9 @@
         document
           .getElementById("toggleStorageBtn")
           .addEventListener("click", toggleStorage);
-
         const buttonText = useServerStorage
           ? "Перейти на локальное хранилище"
           : "Перейти на серверное хранилище";
-
         document.getElementById("toggleStorageBtn").textContent = buttonText;
       })();
     </script>
